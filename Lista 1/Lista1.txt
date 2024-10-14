@@ -1,0 +1,538 @@
+Questão 1
+Defina:
+(a) Inteligência.
+(b) Inteligência Artificial.
+(c) Agente.
+(d) Racionalidade.
+(e) Raciocínio Lógico.
+
+a)Intelgencia
+habilidade de aprender e aplicar novos conhecimentos e habilidades.
+
+b)Inteligencia Artificial
+habilidade de softwares de computador de aprender e aplicar novos conhecimentos e habilidades.
+
+c)Agente
+Age e Reage em cima de um ambiente
+
+d)Racionalidade
+tendência para entender (compreender) os fatos e/ou ideias em conformidade com a lógica. Escolher a melhor ação a ser executada dada uma situação.
+
+e)Raciocinio logico
+Caminho paraa se tomar uma decisão
+
+Questão 2
+De 1990 a 2019 ocorreu o Prêmio Loebner, premiação concedida ao programa que chega mais perto
+de passar em uma versãoo do Teste de Turing. Pesquise e relate o último vencedor do prêmio Loebner.
+Quais técnicas ele usa? Como ele avança o estado da arte em IA?
+
+O ultimo ganhador do premio aconteceu em 2019 foi o chatbot chamado Mitsuku, desenvolvido por Steve Worswick
+as caracteriscas de Mitsuki são o Processamento de linguagem neural ou seja tecnicas avancadas de PLN, Sistemas de Regras, 
+conhecimento vasto, interatividade ele é projetado para conversas variadas e para se adaptar ao estilo do usuario
+e os campos que mais destacaram para o avanço da IA foi em Conversção Autentica e Engajamento do Usuario
+
+Questão 3
+As ações reflexas (como recuar diante de um fogão quente) são racionais? Ou são ações inteligentes?
+Ela é racional pois para não gerarmos prejuizo nos afastamos do fogão mas não são inteligente pois não aplicamos nenhum conhecimento
+
+Questão 4
+Há classes bem conhecidas de problemas que são difíceis para computadores e denominados problemas
+NP-difíceis. Outras classes de problemas são comprovadamente indecidiveis. Isso significa que a IA é
+impossível?
+Ela não comprova que a IA é impossivel e sim que ela tem limitações e desafios que os pesquisadores de IA enfrentam
+
+Queestão 5
+Para cada uma das seguintes afirmações, diga se é verdadeira ou falsa e apoie sua resposta com exemplos
+ou contraexemplos, quando apropriado.
+
+(a) Um agente que detecta apenas informações parciais sobre o estado não pode ser perfeitamente
+racional.
+Falsa, pois existem agentes qque atuam sobre ambientes parcialmente observavel.
+
+(b) Existem ambientes de tarefas nos quais nenhum agente puramente reflexivo pode se comportar
+racionalmente.
+Verdadeira pois agentes reflexivos sãao agentes que tomam decisões sem planejamento futuro e não podem antecipar coisas
+deste modo se ele fosse colocado em algum ambiente complexo onde voce deve antecipar as coisas ele n~çao tomaria as melhores
+decisões um exemplo disso é dirigir um carro 
+
+(c) Existe um ambiente de tarefas no qual todo agente é racional.
+Não é possivel existir um ambiente que todo agente é racional ou seja afirmação falsa, agentes que tomam decisões aleaatórias
+ou agentes que se baseam apenas em regras simples não poderia atuar num jogo de xaadrez por exemplo pois não estariam levando em conta
+a estratégia que é de extrema importancia em um jogo
+
+(d) A entrada para um programa de agente é a mesma que a entrada para a função do agente.
+Falsa, a função do agente é uma abstraçãao de todas as decisões do agente, e o programa é a implemntação dessa função ou seja
+eles podem receber entradas diferentes enquanto a função do agente pode receber entradas do tipo [percepção1, percepção2 ... percepçãoN]
+o programa do agente vai receber apenas a percepção atual como por exemplo percepçãoN
+
+(e) Toda função de agente é implementável por alguma combinação programa/máquina.
+Falsa, pois há limites fisicos e computacionais que impedem que todas as funções de agentes sejam implementaveis.
+
+(f) Suponha que um agente selecione sua ação uniformemente ao acaso do conjunto de ações possíveis.
+Existe um ambiente de tarefas determinístico no qual esse agente é racional.
+Falsa, pois um agente uniformemente ao acaso (Aleatorio) não pode ser considerado racional pois um aambiente determinisco
+as ações tem consequencias e o Agente não estaria tomando as melhores decisões já que não leva em considerção suas ações 
+como por exemplo em um jogo de xadrez
+ 
+(g) E possível que um determinado agente seja perfeitamente racional em dois ambientes de tarefas 
+distintos.
+Verdadeiro, desde que o agente adapte suas ações às características e objetivos de cada ambiente e maximize sua função de desempenho 
+em cada um, ele pode ser perfeitamente racional em ambos.
+
+(h) Todo agente é racional em um ambiente não observável.
+Falsa, pois agentes que dependem de cepercpções imediatas não vão conseguir atuar da melhor forma em cima daquele ambiente
+
+(i) Um agente jogador de pôquer perfeitamente racional nunca perde.
+Falsa, pois poquer é um ambiente de informações incompletas e contem elementos de sorte, com isso vai existir variaveis que ele não pode controlar
+como a virada de carta da mesa ue pode favorecer o adversaario ou/e desfavorecer ele.
+
+Questão 6
+Para cada uma das seguintes atividades, dê uma descrição PEAS do ambiente da tarefa.
+
+(a) Jogar futebol.
+Medida de desempenho: Gols marcados, assistencias, passes certos, faltas cometidas
+Ambiente: Campode Futebol
+Atuadores: Correr, passar a bola, chutar, marcar, pular, cruzar, caabecear
+Sensores: Camera, tato
+
+(b) Comprar livros de IA na internet.
+medidas de desempenho: Livro mais barato, tempo de chegada, definir melhores vendedores
+Ambiente: Internet
+Atuaadores: Comprar, comparar preços, definir rota
+Sensores: Resultado de pesquisa, informações sobre desconto, avaliações e classificações
+
+(c) Dar lance em um leilão.
+Medidas de desempenho: Conseguir o item com o menor preço.
+Ambiente: Leilões 
+Atuadores: Dar lance
+Sensores: preço maximo
+
+(d) Atender clientes em uma recepção
+Medidas de desempenho: Satisfação do cliente
+Ambiente: Recepções
+Atuadores: Conversar, Se adptar para o cliente
+Sensores: Humor do cliente, Linguagem do cliente, Modo de falar
+
+7. Responda SIM ou NAO para indicar o que caracteriza cada um dos ambientes apresentados a seguir 
+(justifique as suas respostas).
+
+Observavel
+-Catalogo de compras na internet: Sim o agente pode ter acesso a todas as informações necessarias para tomar a decisão de compra
+-Assistente Matemático: Sim, pois as informações dos teoremas estarão disponiveis para o assitente/agente realizar uma demonstraçãao
+
+Deterministico
+-Catalogo de compras na internet: Não, pois o ambiente de compra é estavel e depende de fatores externos que nem sempre temos controle como quantidade de estoque.
+-Assistente Matemático: Sim, pois o ambiente de teoremos tem uma sequencia de passos lógicos e sempre devemos chegar na mesma solução ou seja é completamente deterministico como o nome já diz é atuado na area de exatas
+
+Estatico
+-Catalogo de compras: Não pois o ambiente sempre vai mudar como já foi dito o ambiente muda de acordo com estoque, promoções, vendedores, moda etc
+-Assistente Matematico: Sim pois na demostração de teoremas as coisa não irão mudar sempre seguira a mesma sequencia de passos lógicos para ser resolvido
+
+Episódico
+-Catalogo de compras:Não. O ambiente de compras na internet não é episódico, pois as ações de compra podem influenciar o comportamento futuro, como a recomendação de produtos com base em compras anteriores.
+-Assistente Matematico:Sim. Cada passo da demonstração pode ser considerado independente dos anteriores, de modo que o ambiente é episódico, uma vez que as regras para uma demonstração são aplicadas a cada parte sem dependência do que ocorreu antes.
+
+Discreto:
+-Catálogo de Compras na Internet: SIM. O ambiente é discreto, pois há um número finito de produtos, preços e ações possíveis (adicionar ao carrinho, finalizar compra, etc.).
+-Assistente Matemático para demonstração de Teoremas: SIM. O ambiente matemático também é discreto, pois a demonstração de teoremas segue um conjunto finito de regras e passos.
+
+Agente Único:
+-Catálogo de Compras na Internet: SIM. Geralmente, apenas um agente (o usuário ou o sistema de compras automatizado) está envolvido na tomada de decisões.
+-Assistente Matemático para demonstração de Teoremas: SIM. Neste ambiente, também há um único agente (assistente matemático) responsável por realizar a demonstração
+
+Questão 8
+Até que ponto os seguintes sistemas de computador são instâncias de IA?
+(a) Leitores de código de barras de supermercados.
+Não é um sistema de IA de verdade a varredura do código de barra de certo modo é uma visão feita pelo computador mas não é muito uma IA pois não tem interação ou etapas que o sistema faz sozinho
+(b) Mecanismos de busca na Web.
+O mecanismo de busca em instancia em IA para determinar a importancia da página os sites de busca tipo o Google que agrupam as páginas recuperadas em categorias usam tecnicas de agrupamento e aprendizado de maquina outras funcionalidades de busca tambem usa tecnicas inteligente como os erros ortograficos que são usado para mineiração de dados alem disso temos as propagandas que são determinadas pelas suas pesquisas.
+(c) Menus telefônicos ativados por voz.
+Em certa medida. Por exemplo, tais menus tendem a usar vocabulários e recursos muito limitados como os dígitos “Sim” e “Não” ou “Aceitar” e “Recusar”. Além disso, eles se limitam ao controle projetado, o que simplifica o problema. Por outro lado, os programas devem lidar com um espaço não controlado de todos os tipos de vozes,  sotaques, nacionalidade e idioma nativo além disso eles devem interpretar diferentes vocabulários o que certamente os classifica como sistemas inteligentes.
+(d) Algoritmos de roteamento da Internet que respondem dinamicamente ao estado da rede.
+Agentes inteligentes que trabalham no ciberespaço, a tarefa  é sofisticada a informação disponível é parcial as técnicas são heurísticas e o estado do mundo é dinâmico tudo isso é característico de atividades inteligentes.
+
+Questão 9
+Muitos dos modelos computacionais das atividades cognitivas que foram propostos envolvem operações matemáticas bastante complexas, como a convolução de uma imagem com uma Gaussiana ou a busca de um mínimo da função de entropia. A maioria dos humanos (e certamente todos os animais) nunca aprende esse tipo de matemática, quase ningúem aprende isso antes da faculdade e quase ninguém consegue calcular a convolução de uma função com uma Gaussiana de cabeça. Que sentido faz dizer que o “sistema de visão” está fazendo esse tipo de matemática, enquanto a pessoa em si não tem ideia de como fazê-lo?
+Os sistemas de visão operam por meio de principios que tem como ser descrito matematicamente mas com nossa experiencia direta e intuitiva conseguimos fazer as coisas sem fazer contas matematicas.
+
+Parte 2 Buscas
+
+Questão 1
+Qual é a diferença entre uma busca informada e uma busca não informada?
+Busca não Informada:
+São buscas que não utilizam de informações adicionais, ele explora o espaço de busca de forma sistematica. Algoritimos de busca não informada incluem:
+Busca em Largura, Busca em Profundidade, Busca em Profundidade Limitada, Busca Iterativa em Profundidade
+Busca Informada:
+A busca informada utilizam dados de heuristica para guiar a busca de maneira mais eficiente as mesmas são estimativas de custo para alcançar um determinado nó
+
+Questão 2.
+Dê um exemplo de problema em que a “busca em largura” funcionaria melhor do que a “busca emprofundidade”. Dˆe um exemplo de problema em que a “busca em profundidade” funcionaria melhor do que a “busca em largura”. Justifique os exemplos.
+Exemplo 1. Busca em Largura
+Busca em largura é recomendado para resolver problemas de labirintos pois ela explora todos os camionhos a partir do ponto inicial, ou seja ela examina todos os nós a uma certa distancia para avancar para o proximo nivel. O que é ideial para resolver um labirinto onde a ideia é achar o menor caminho para a saida se utilizasesemops a busca em profundidade teriamos um caminho muito mais profundo o que geraria mais custo
+Exemplo 2. Busca em Profundidade
+É recomendado busca em profundidade por exemplo para resolver um quebra cabeça pois existe um ggrande numero de estados possiveis e onde a solução pode estar mlocalizada em profundidades variadas. e quanto menor a profuindidade menor o tempo para achar a solução
+Busca em Largura: Melhor para encontrar o caminho mais curto (exemplo: labirintos).
+Busca em Profundidade: Melhor para problemas onde a solução pode ser encontrada rapidamente em níveis profundos, e onde a memória é uma preocupação (exemplo: quebra-cabeças).
+
+Questão 3
+Forneça uma formulação completa para cada um dos seguintes problemas. Escolha uma formulação que seja precisa o suficiente para ser implementada.
+(a) Existem seis caixas de vidro em uma fila, cada uma com uma fechadura. Cada uma das cinco primeiras caixas contém uma chave que desbloqueia a próxima caixa na fila; a última caixa contém uma banana. Você tem a chave para a primeira caixa e deseja a banana.
+(i,k) onde i é o indice da caixa atual e k indica se esta aberta ou fechada (1 para abeta e 0 para fechada)
+Ações.
+Abrir a caixa se a caixa i está fechada (k=0) e contem a chave para a caixa i+1 então ao abrir o estado transita para (i+1,1) Estado inicial (1,0) estado objetivo (6,1)
+
+(b) Você começaa com a sequência ABABAECCEC, ou em geral qualquer sequência feita a partir de A, B, C e E. Você pode transformar essa sequência usando as seguintes igualdades: AC = E, AB = BC, BB = E e Ex = x para qualquer x. Por exemplo, ABBC pode ser transformado em AEC, e então em AC, e então em E. Seu objetivo é produzir a sequência E.
+Ações: As ações disponíveis são aplicar as seguintes transformações:
+
+Transformar AC em E: Se a sequência contém "AC", substituí-lo por "E".
+Transformar AB em BC: Se a sequência contém "AB", substituí-lo por "BC".
+Transformar BB em E: Se a sequência contém "BB", substituí-lo por "E".
+Transformar Ex em x: Substituir "E" por qualquer sequência x.
+
+(c) Há uma grade de quadrados n × n, onde cada quadrado é inicialmente um piso não pintado ou um buraco sem fundo. Você começa em um quadrado de piso não pintado e pode ou pintar o quadrado sob você ou mover-se para um quadrado de piso não pintado adjacente. Você quer que todo o piso esteja pintado.
+Um estado pode ser representado como um par (p,(x 1 ,y 1 ),S), onde  p é o status de pintura (pintado ou não pintado) de cada quadrado, (x 1​ ,y 1 ) é a posição atual do agente na grade, e S é a lista de quadrados não pintados.
+Pintar o quadrado atual: Se o quadrado atual não está pintado, pintá-lo e atualizar o status de p.
+Mover-se para um quadrado adjacente: Se um quadrado adjacente está disponível e não está pintado, mover-se para esse quadrado.
+
+Questão 4
+a)
+Estado do robo pode ser descrito como (x,y e d) x e y representam as coordenadas e D  a direção as ações possiveis são Girar e Mover-se o tamanho de estados são (M * N) * 4
+b)
+Número de Interseções: Se o labirinto tem k interseções, o robô pode estar em qualquer uma dessas interseções.
+Orientação: O robô ainda tem 4 orientações possíveis (norte, leste, sul, oeste) em cada interseção.
+tamanho de estados = K * 4
+o tamanho do espaço de estados se torna muito menor e mais eficiente, sendo proporcional ao número de interseções no labirinto, multiplicado pelas 4 orientações possíveis. Isso simplifica a busca por uma solução, tornando-a mais rápida e menos complexa.
+c)
+Agora, o espaço de estados é composto apenas pelos pontos de virada (interseções ou extremidades de corredores) do labirinto.
+Se houver k pontos de virada no labirinto, o tamanho do espaço de estados é simplesmente k.
+d)
+O ambiente foi modelado como uma grade (labirinto), onde o robô pode ocupar posições discretas representadas por coordenadas. Isso abstrai o movimento contínuo do mundo real, onde um robô poderia teoricamente estar em qualquer ponto do espaço.
+O robô se move diretamente entre interseções ou pontos de virada, sem considerar aspectos físicos como inércia, velocidade de movimento, aceleração ou possíveis atrasos durante o movimento.
+Presumimos que o robô tem total controle e precisão em suas ações, e que o ambiente (labirinto) é perfeitamente conhecido e previsível, sem incertezas ou ruídos sensoriais (como falhas em detectar uma parede ou desvios no movimento).
+
+Questão 5
+a)
+Definições e Restrições:
+Estado: Um estado do problema pode ser representado por três variáveis:
+O número de missionários em um lado do rio.
+O número de canibais em um lado do rio.
+A posição do barco (que pode estar em um dos dois lados do rio).
+Portanto, um estado é representado como uma tupla (M,C,B), onde:M é o número de missionários no lado inicial (lado A).C é o número de canibais no lado inicial. B representa a posição do barco (0 para o lado inicial e 1 para o lado final).
+Ações: O barco pode levar 1 ou 2 pessoas de um lado para o outro, com as seguintes combinações:
+1 missionário.
+2 missionários.
+1 canibal.
+2 canibais.
+1 missionário e 1 canibal.
+Restrições de Segurança:
+Em qualquer lado do rio, o número de missionários não pode ser superado pelo número de canibais (ou seja, M≥C) a menos que M=0 (ou seja, não há missionários para ser superado).
+O barco deve ter pelo menos uma pessoa para atravessar o rio.
+O barco só pode transportar até duas pessoas.
+Estado Inicial:
+No início, todos os missionários e canibais estão no lado A com o barco:(3,3,0).
+Estado Objetivo:
+Todos os missionários e canibais devem estar do outro lado do rio (lado B) com o barco: (0,0,1).
+Diagrama do Espaço de Estados:
+O espaço de estados pode ser representado como um grafo, onde cada nó é um estado (M,C,B) e as arestas entre os nós representam as ações possíveis de mover pessoas de um lado para o outro. Devido à complexidade do grafo completo, descreveremos a estrutura:
+Nós: Cada estado (M,C,B) é um nó no grafo.
+Arestas: As arestas conectam estados adjacentes, ou seja, estados que podem ser alcançados a partir de uma ação de mover o barco com 1 ou 2 passageiros.
+O diagrama completo teria 16 estados possíveis (depois de remover os estados inválidos), com transições entre eles baseadas nas ações permitidas.
+
+b)
+from collections import deque
+
+# Função para verificar se o estado é válido
+def is_valid_state(m, c):
+    return (m == 0 or m >= c) and (3 - m == 0 or 3 - m >= 3 - c)
+
+# Função para gerar novos estados
+def get_new_states(state):
+    m, c, b = state
+    new_states = []
+    if b == 0:  # Barco no lado inicial
+        if m > 0: new_states.append((m-1, c, 1))  # 1 missionário
+        if m > 1: new_states.append((m-2, c, 1))  # 2 missionários
+        if c > 0: new_states.append((m, c-1, 1))  # 1 canibal
+        if c > 1: new_states.append((m, c-2, 1))  # 2 canibais
+        if m > 0 and c > 0: new_states.append((m-1, c-1, 1))  # 1 missionário e 1 canibal
+    else:  # Barco no lado final
+        if m < 3: new_states.append((m+1, c, 0))  # 1 missionário
+        if m < 2: new_states.append((m+2, c, 0))  # 2 missionários
+        if c < 3: new_states.append((m, c+1, 0))  # 1 canibal
+        if c < 2: new_states.append((m, c+2, 0))  # 2 canibais
+        if m < 3 and c < 3: new_states.append((m+1, c+1, 0))  # 1 missionário e 1 canibal
+    return [(nm, nc, nb) for (nm, nc, nb) in new_states if is_valid_state(nm, nc)]
+
+# Função BFS para resolver o problema
+def solve_missionaries_and_cannibals():
+    start = (3, 3, 0)  # Estado inicial
+    goal = (0, 0, 1)   # Estado objetivo
+    queue = deque([(start, [])])  # Fila de estados a explorar, junto com o caminho percorrido
+    visited = set([start])  # Conjunto de estados visitados
+
+    while queue:
+        (state, path) = queue.popleft()
+        if state == goal:
+            return path + [state]
+
+        for new_state in get_new_states(state):
+            if new_state not in visited:
+                visited.add(new_state)
+                queue.append((new_state, path + [state]))
+
+    return None  # Se não houver solução
+
+# Teste
+solution = solve_missionaries_and_cannibals()
+for step in solution:
+    print(step)
+
+Questão 6
+a)
+           1
+         /   \
+       2       3
+      / \     / \
+     4   5   6   7
+    / \ / \ / \ / \
+   8  9 10 11 12 13 14 15
+Estado inicial: 1
+Sucessores de 1: 2 (esquerda), 3 (direita)
+Sucessores de 2: 4 (esquerda), 5 (direita)
+Sucessores de 3: 6 (esquerda), 7 (direita)
+E assim por diante, até o estado 15.
+
+b)
+A busca em largura explora todos os nós em cada nível antes de descer para o próximo nível. Considerando o estado objetivo 
+11
+11, a ordem dos nós visitados seria:
+
+1
+1 (estado inicial)
+2
+2, 
+3
+3 (primeiro nível)
+4
+4, 
+5
+5, 
+6
+6, 
+7
+7 (segundo nível)
+8
+8, 
+9
+9, 
+10
+10, 
+11
+11 (terceiro nível — encontramos o estado objetivo)
+Ordem dos nós visitados (BFS):
+1
+,
+2
+,
+3
+,
+4
+,
+5
+,
+6
+,
+7
+,
+8
+,
+9
+,
+10
+,
+11
+1,2,3,4,5,6,7,8,9,10,11
+
+Busca em Profundidade (DFS):
+A busca em profundidade explora o mais longe possível ao longo de um caminho antes de voltar. A ordem de visita dos nós para DFS até encontrar o estado 
+11
+11 seria:
+
+1 (estado inicial)
+2 (sucessor esquerdo de 1)
+
+4 (sucessor esquerdo de 2)
+
+8 (sucessor esquerdo de 4)
+
+8 não tem sucessores, então volta para 4
+
+9 (sucessor direito de 4) 9 não tem sucessores, então volta para 
+
+2 5 (sucessor direito de 2)
+
+10 (sucessor esquerdo de 5)
+
+10 não tem sucessores, então volta para 5
+
+11 (sucessor direito de 5 — encontramos o estado objetivo)
+Ordem dos nós visitados (DFS):
+1,2,4,8,9,5,10,11
+
+c)
+Dado o espaço de estados descrito, onde cada estado k tem dois sucessores 2k (esquerda) e 
+2k+1 (direita), podemos propor uma solução sem necessidade de busca baseada na representação binária dos números. A observação chave é que a navegação de um estado para outro pode ser determinada pela conversão do estado objetivo para sua representação binária.
+
+Algoritmo sem busca:
+Observe a relação da árvore com a binária:
+
+O nó raiz (1) corresponde ao caminho mais curto.
+O caminho para o nó objetivo k na árvore pode ser derivado da representação binária de k.
+Passos do algoritmo:
+
+Pegue o número objetivo k e converta-o para binário. Descarte o bit mais significativo (sempre 1, pois todos os nós começam de 1, que é a raiz).
+O restante dos bits indicará o caminho a ser tomado:
+Um 0 indica um movimento à esquerda (multiplicação por 2).
+Um 1 indica um movimento à direita (multiplicação por 2 + 1).
+Exemplo para 
+k=11:1011
+Representação binária de 011
+Remova o bit mais significativo (o primeiro 1): restam 011
+Esses bits indicam o seguinte caminho:
+0: Vá para a esquerda (2).
+1: Vá para a direita (5).
+1: Vá para a direita (11).
+Portanto, o caminho do nó 
+1 até 11 é:
+1→2→5→11
+Esse algoritmo encontra diretamente o caminho para qualquer estado objetivo sem a necessidade de busca explícita, simplesmente analisando a representação binária do número.
+
+7)
+# Função para navegar no espaço de estados
+def navigate_state_space(target):
+    # Converte o estado alvo para binário
+    bin_target = bin(target)[2:]  # Remove o prefixo '0b' da representação binária
+    
+    # Começa no estado inicial (1)
+    current_state = 1
+    path = [current_state]
+    
+    # Remove o bit mais significativo
+    bin_path = bin_target[1:]  # Caminho a partir do bit mais significativo removido
+    
+    # Navega no espaço de estados
+    for bit in bin_path:
+        if bit == '0':
+            current_state = current_state * 2  # Esquerda (multiplica por 2)
+        elif bit == '1':
+            current_state = current_state * 2 + 1  # Direita (multiplica por 2 e soma 1)
+        
+        path.append(current_state)  # Adiciona o estado atual ao caminho
+    
+    return path
+
+# Teste da função
+def test_navigation():
+    target_state = 11  # Exemplo de estado objetivo
+    path = navigate_state_space(target_state)
+    
+    print(f"Caminho do estado 1 até {target_state}: {path}")
+
+# Executar o teste
+test_navigation()
+
+8)
+import requests
+from bs4 import BeautifulSoup
+from collections import deque
+
+# Função para extrair todos os links de uma página da web
+def get_links(url):
+    try:
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        links = set()  # Usar um set para evitar duplicatas
+        
+        # Extrair todos os links
+        for anchor in soup.find_all('a', href=True):
+            link = anchor['href']
+            # Verifica se o link é válido (ignora links que não são URLs)
+            if link.startswith('http'):
+                links.add(link)
+        
+        return links
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar {url}: {e}")
+        return set()
+
+# Função para encontrar o caminho de links de uma URL inicial para uma URL objetivo
+def find_link_path(start_url, target_url):
+    queue = deque([(start_url, [start_url])])  # Fila contendo URLs e o caminho até elas
+    visited = set([start_url])  # Conjunto de URLs já visitadas
+    
+    while queue:
+        current_url, path = queue.popleft()
+        print(f"Visitando: {current_url}")
+        
+        # Obter todos os links da página atual
+        for link in get_links(current_url):
+            if link == target_url:
+                return path + [link]  # Caminho completo encontrado
+            if link not in visited:
+                visited.add(link)
+                queue.append((link, path + [link]))  # Adiciona o novo caminho
+    
+    return None  # Caso não haja caminho
+
+# Teste da função
+def test_link_path():
+    start_url = 'https://exemplo.com/pagina_inicial'  # Substituir por uma URL real
+    target_url = 'https://exemplo.com/pagina_objetivo'  # Substituir por uma URL real
+    path = find_link_path(start_url, target_url)
+    
+    if path:
+        print("Caminho encontrado:")
+        for url in path:
+            print(url)
+    else:
+        print("Nenhum caminho encontrado.")
+
+# Executar o teste
+test_link_path()
+
+Questão 9: Labirinto 1 usando busca em profundidade (DFS)
+A busca em profundidade explora o caminho o mais fundo possível antes de retroceder. No caso, ao expandir as fronteiras, a ordem de escolha é: direita, cima, esquerda e baixo.
+
+(a) Número de passos
+O DFS não garante que o caminho encontrado será o mais curto, já que ele explora caminhos profundamente antes de retroceder. Seguindo a ordem dada (direita, cima, esquerda, baixo), podemos traçar o caminho:
+
+A posição inicial é (7,0).
+Movimentos:
+Direita para (7,1), (7,2), (7,3), (7,4), (7,5)
+Cima para (6,5), (5,5)
+Esquerda para (5,4)
+Cima para (4,4), (3,4)
+Direita para (3,5), (2,5), (1,5)
+Cima para (0,5)
+Direita para (0,6), (0,7) — destino final (B)
+O número total de passos seria o número de células visitadas até encontrar o destino. Contando todas as células visitadas, temos 15 passos.
+
+(b) A solução é ótima?
+A solução não é ótima. A busca em profundidade não garante o caminho mais curto, pois explora os caminhos profundamente, sem avaliar o comprimento total.
+
+Questão 10: Labirinto 2 usando busca em largura (BFS)
+A busca em largura explora os caminhos camada por camada, ou seja, expande todos os nós a uma certa distância antes de expandir os mais distantes. Isso garante que o primeiro caminho encontrado é o mais curto.
+
+(a) Número de passos
+O BFS garante o caminho mais curto, que neste caso seria:
+
+A posição inicial é (0,4).
+Movimentos:
+Baixo para (1,4), (2,4), (3,4), (4,4), (5,4)
+Direita para (5,5)
+Baixo para (6,5), (7,5)
+Esquerda para (7,4), (7,3), (7,2) — destino final (B)
+Aqui, o número total de passos seria 11, considerando o menor caminho.
+
+(b) A solução é ótima?
+Sim, a busca em largura garante que o caminho encontrado é o mais curto possível, portanto, a solução é ótima.
