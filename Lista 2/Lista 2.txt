@@ -1,0 +1,42 @@
+1. A diferença entre a os aloritimos de busca: gulosa, A*, em largura e em prrofundidade está na heuristica é como se fosse mais inteligentes por ter informações a mais por exemplo na busca gulosa a gente pode usar a heristica de escala manhathan que tem a informação de quão proximo estamos do estado objetivo já no A* a gente pode ter tanto a heuristica do manhathan quanto de custo fazendo assim o algoritimo funcionar melhor, mas para que ele realmente funcione melhor a heuristica usada tem que ser boa se ela não for ótima para o problema pode ser que esse algoritimos se saim pior do que os outros.
+
+2.
+A)
+Nós visitados pela busca gulosa
+(A)->(B)->(E)->(I)
+
+B)
+Nós visitados pela busca A*
+Dada a função f(n) = h1(n1) + h2(n2)
+
+Temos nó A
+f(B) = 5+4 = 9
+F(C) = 2+8 = 10
+
+A->B
+
+Nó B
+F(D) = 9+10 = 19
+F(E) = 4+1 = 5
+
+A->B->E
+
+Nó E
+F(H) = 7+3 = 10
+F(I) = 7+0 = 7
+
+A->B->E->I
+
+3.
+Uma heurística h1 que domina h2 levará o A* a expandir menos nós, tornando a busca mais eficiente em termos de tempo e memória. O algoritmo ainda encontrará o mesmo caminho ótimo, mas com uma menor quantidade de trabalho exploratório quando utiliza a heurística dominante.
+
+4.
+a) No labirinto 2 o algoritimo visitou quase todos os nós para chegar na solução, já no labirinto 1 ele foi mais acertivo
+b) No labirinto 2 a solução não foi otima pois ele anda em nós desnecessariamente, já no labrinto 1 ele não fez nenhuma busca errada
+c) No metodo usando busca por largura em labrintos a gente sempre podia ter certeza que a solução encontrada seria a ótima ou seja ele chegaria na melhor solução ja a busca em profundidade não garantia isso, o que aconteceu usando busca gulosa foi quase como busca em profundidade onde ele encontrou uma solução mas não foi a ótima pois visitou alguns nós que não precisava ser visitado
+
+5.
+a) O algoritimo com duas heristica se saiu melhor pois encontrou a solução otima ou seja se saiu melhor que o guloso no labirinto 2
+b) Sim ele encontrou a solução com menor custo ou seja a ótima
+c) no Labrinto 2 ele se saiu muito melhor que o guloso e profundidade em relação ao de largura ele fez quase o mesmo tanto de validações para achar a mesma solução porem num labirinto maior talvez a busca gulosa se saia melhor já que el vai onde é mais promissor
+

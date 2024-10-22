@@ -1,0 +1,7 @@
+Um problema parra IA pode ser definido por quatro componentes:
+-Estado inicial (abstração do prroblema) no caso dos canibais e missionarios seria (3, 3, 0) onde x e y são os numeros de missionarios e canibais e z é a variavel que deterrmina o lado que o barco está como 0 ou 1
+-Função sucessor São ações possiveis que pode ser tomada pelo agente se levarmos em consideração o mesmo exemplo podes observar que a canoa nunca pode estar sozinha e que temos entrada de 1 missionario, 1 canibal, 2 missionarios, 2 canibais ou então 1 missionario e 1 canibal
+-Teste de Objetivo que no mesmo exemplo seria o objetivo (0, 0, 1) ou seja todos os missionarios e canibais do outro lado do rio.
+-Temos tambem o custo de passo mas não foi preciso usar para o exemplo acima, porem poderia e é usado em sistemas de GPS 
+
+Antes do agente procurar uma solução ele deve formular um objetivo e depois usar o objetivo para formular o problema, o ambiente do problema é representado por um espaço de estados, algorritimo de busca em arvore pode ser usado para resolver qualquer problema, Algoritimos são julgados a partir de completeza, otimização, complexidade de tempo e complexidade de espaço, a busca de largura verifica primeiro sempre os nós mais rasos da arvore, ja a em profundidade expande todos os nós possiveis a partir do nó pai e se a solução não for encontrada ela volta do nó pai e verifica os proximos, busca bidirecional  
